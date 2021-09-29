@@ -1,7 +1,8 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Assignment 5</title>
+
+<head>
+    <title>Assignment 5</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,31 +14,102 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <h1>
-            Animals by Nalati Ravali
-          </h1>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-2">N</div>
-              <div class="col-sm-2">A</div>
-              <div class="col-sm-2">L</div>
-              <div class="col-sm-2">A</div>
-              <div class="col-sm-2">T</div>
-              <div class="col-sm-2">I</div>
-            </div>
-            <div class="row">
-              <div class="col-md">Nightingale</div>
-              <div class="col-md">Alligator</div>
-              <div class="col-md">Leopard</div>
-              <div class="col-md">Anglerfish</div>
-              <div class="col-md">Tortoise</div>
-              <div class="col-md">Impala</div>
-            </div>
-        
-            <div>I observe that when I resize the window slowly the rows with Animals names break first at 767 x 620 px and then the
-              rows with Animals letters breaks at 575 x 620 px</div>
-          </div>
-    </body>
+</head>
+
+<body>
+    <h1>
+        Animals by Nalati Ravali
+    </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">N</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">L</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">T</div>
+            <div class="col-sm-2">I</div>
+        </div>
+        <div class="row">
+            <div class="col-md">Nightingale</div>
+            <div class="col-md">Alligator</div>
+            <div class="col-md">Leopard</div>
+            <div class="col-md">Anglerfish</div>
+            <div class="col-md">Tortoise</div>
+            <div class="col-md">Impala</div>
+        </div>
+
+        <div>I observe that when I resize the window slowly the rows with Animals names break first at 767 x 620 px and
+            then the
+            rows with Animals letters breaks at 575 x 620 px
+        </div>
+    </div>
+
+    <div class="container">
+        <img src="./images/nightingale.jpg" class="img-fluid" alt="Nightingale" height="500" width="400">
+        <img src="./images/alligator.jpg" class="img-fluid" alt="Leopard" height="500" width="400">
+        <img src="./images/leopard.jpg" class="img-fluid" alt="Turtle" height="500" width="400">
+    </div>
+    <div class="container">
+        <img src="./images/nightingale.jpg" class="img-thumbnail" alt="Nightingale" height="250" width="250">
+        <img src="./images/alligator.jpg" class="img-thumbnail" alt="Alligator" height="250" width="250">
+        <img src="./images/leopard.jpg" class="img-thumbnail" alt="Leopard" height="250" width="250">
+    </div>
+
+    <div class="table-responsive">
+        <table class=" table table-hover table-dark table-bordered table-sm table-striped caption-top">
+            <caption>List of Animals Table with city and car names</caption>
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Letter</th>
+                    <th scope="col">Animal</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Car</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <th scope="row">N</th>
+                    <td>Nightingale</td>
+                    <td>New York</td>
+                    <td>Nissan</td>
+                </tr>
+                <tr class="table-success">
+                    <th scope="row">A</th>
+                    <td>Alligator</td>
+                    <td>Atlanta</td>
+                    <td>Ambassidor</td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">L</td>
+                    <td>Leopard</td>
+                    <td>Los Angles</td>
+                    <td>Lexus</td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">A</th>
+                    <td>Anglerfish</td>
+                    <td>Alaska</td>
+                    <td>Audi</td>
+                </tr>
+                <tr class="table-info">
+                    <th scope="row">T</th>
+                    <td>Tortoise</td>
+                    <td>Tokyo</td>
+                    <td>Tesla</td>
+                </tr>
+                <tr class="table-secondary">
+                    <th scope="row">I</th>
+                    <td>Impala</td>
+                    <td>Indianapolis</td>
+                    <td>Infiniti</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+</body>
+
 </html>
